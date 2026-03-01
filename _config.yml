@@ -1,0 +1,24 @@
+title: "maledias"
+description: "Personal blog"
+url: "https://maledias.github.io"
+
+theme: minima
+
+# Minima theme settings
+minima:
+  skin: auto   # auto | classic | dark | solarized | solarized-dark
+
+# Show excerpts on the home page
+show_excerpts: true
+
+# Plugins supported by GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from the build output
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
