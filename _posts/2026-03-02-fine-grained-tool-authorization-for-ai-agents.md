@@ -1,4 +1,9 @@
-# Fine-Grained Tool Authorization for AI Agents
+---
+layout: post
+title: "Fine-Grained Tool Authorization for AI Agents"
+date: 2026-03-02
+---
+
 
 AI agents have tools. Which tools any given user should be able to invoke — and under what conditions — is an authorization problem. It's one many agent developers don't encounter until they're deep in implementation, and one the industry has been solving for decades in traditional software.
 
@@ -7,6 +12,8 @@ This post applies those solutions to agents.
 There are no implementation tutorials here. What follows is conceptual: a grounding in the authorization models — RBAC, ABAC, and ReBAC — and how each applies to agent tool authorization. Along the way, we'll cover where enforcement happens in an agent architecture and the mechanisms available for implementing it: OAuth scopes, pre-dispatch middleware, and policy engines such as OPA, Cedar, and Cerbos. The goal is a clear mental model — what each approach does, when it's the right choice, and how the pieces fit together.
 
 If you haven't had to think about this yet, this post is for you too. Many agent developers ship their first version without tool-level authorization and reach for these patterns only when a compliance requirement, a security concern, or a product decision forces the question. The concepts are easier to apply when you've seen the full map first.
+
+# Fine-Grained Tool Authorization for AI Agents
 
 ## 1. The problem hiding in plain sight
 
