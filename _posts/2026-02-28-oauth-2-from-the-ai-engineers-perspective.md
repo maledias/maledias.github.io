@@ -4,6 +4,9 @@ title: "OAuth 2.0 from the AI Engineer's Perspective"
 date: 2026-02-28
 ---
 
+This post is a practical guide to OAuth 2.0 for AI engineers.
+It covers the core concepts — roles, scopes, access tokens, and JWTs — and then goes deep on the grant types most relevant to AI and agentic systems: Authorization Code, Authorization Code with PKCE, Client Credentials, Refresh Token, Device Authorization, and Token Exchange. Along the way, it maps each grant type to real agentic scenarios, explains how OAuth 2.0 relates to OpenID Connect, and gives you a decision framework for choosing the right grant type in your own systems.
+
 # OAuth 2.0 from the AI Engineer Perspective
 
 ## Introduction
